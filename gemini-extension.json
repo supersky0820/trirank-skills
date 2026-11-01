@@ -1,0 +1,12 @@
+{
+  "name": "trirank",
+  "version": "0.3.0",
+  "description": "Review saved search rankings and AI citation evidence from your TriRank account. Includes a static website-readiness audit.",
+  "mcpServers": {
+    "trirank": {
+      "httpUrl": "https://mcp.trirankai.com/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

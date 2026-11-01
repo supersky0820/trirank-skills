@@ -1,0 +1,21 @@
+{
+  "name": "trirank",
+  "version": "0.3.0",
+  "description": "Review saved Google rankings and AI citation evidence from your TriRank account, plus a static website-readiness audit.",
+  "author": {
+    "name": "TriRank"
+  },
+  "homepage": "https://trirankai.com/mcp",
+  "repository": "https://github.com/supersky0820/trirank-skills",
+  "license": "MIT-0",
+  "keywords": [
+    "seo",
+    "geo",
+    "aeo",
+    "mcp",
+    "search-console"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "skills",
+  "mcpServers": "mcp.json"
+}
