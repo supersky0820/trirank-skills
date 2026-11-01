@@ -48,7 +48,7 @@ npx skills add supersky0820/trirank-skills
 
 ## Account, data and limits
 
-MCP account tools require a TriRank account and connected/owned sites; Search Console tools need an existing GSC connection. Results use already stored data and may lag their source. Successful calls save an account report and consume the existing API request quota. They do not trigger fresh paid AI checks, publish posts or send messages. The public package contains no API key or OAuth secret.
+MCP account tools require a TriRank account and connected/owned sites; Search Console tools need an existing GSC connection. Rankings, citation history, reports and gap tools use already stored data and may lag their source. Domain Rating lookup reads the live public Ahrefs endpoint; the owned-page score tool fetches that public page live. Neither is a new paid AI citation probe. Successful calls save an account report and consume the existing API request quota. Only the newest 200 account reports are retained; saving can remove older account reports. They do not trigger fresh paid AI checks, publish posts or send messages. The public package contains no API key or OAuth secret.
 
 ## Privacy Policy
 
